@@ -10,7 +10,7 @@ function checkArray(arr, element){
             }
         })
         setTimeout(()=>{
-            if(found != undefined){
+            if(found == true){
                 resolve("Element Found!")
             }else{
                 reject("Element Not Found!")
